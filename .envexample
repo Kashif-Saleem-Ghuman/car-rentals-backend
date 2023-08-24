@@ -1,0 +1,6 @@
+Create a file in the root directory names ".env"
+Then add the following to the file and save it:
+DATABASE_USER="your Postgres database user name "
+DATABASE_PASSWORD="Your Postgres database password"
+
+Make sure to add ".env" in the .gitignore file
