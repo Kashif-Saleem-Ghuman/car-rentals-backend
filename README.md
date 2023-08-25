@@ -15,7 +15,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -34,7 +33,7 @@
 
 # 📖 Car Rentals Backend <a name="about-project"></a>
 
-**Car Rentals Backend** is a Rails API that serves as database to the [Car Rentals Frontend](https://github.com/houdamzari/Cars-Rental-FrontEnd) project.
+**Car Rentals Backend** is a Rails API that serves as a database for the [Car Rentals Frontend](https://github.com/houdamzari/Cars-Rental-FrontEnd) project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,7 +59,7 @@
 
 - **Create database**
 - **Authenticate user using devise gem**
-- **Generate Authentication Token using jwt-gem**
+- **Generate Authentication Token using JWT-gem**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,7 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live demo link](https://cars-api.up.railway.app/)
+- Under construction
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,6 +84,7 @@ In order to run this project you need:
 ```sh
   ruby 3.2.1
   rails
+  PostgreSQL
 ```
 
 ### Setup
@@ -95,7 +95,7 @@ Example commands:
 
 ```sh
   cd your-folder
-  git clone https://github.com/demix007/car-rentals-backend.git
+  https://github.com/Kashif-Saleem-Ghuman/car-rentals-backend.git
 ```
 
 ### Install
@@ -113,8 +113,10 @@ Example command:
 
 Setup database with:
 
-Example command:
-
+- Create a .env file in the root folder and enter the environment variables following the format provided in the .env.example file
+  
+- Run the following commands to create a database
+- 
 ```sh
   rails db:create
   rails db:migrate
@@ -123,8 +125,6 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
-
-Example command:
 
 ```sh
   rails server
@@ -137,7 +137,7 @@ To run tests, run the following command:
 Example command:
 
 ```sh
-  rspec
+  RSpec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -176,7 +176,7 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [x] **Add authorization**
-- [x] **Add advance tests to all functionality**
+- [x] **Add advanced tests to all functionality**
 - [x] **Enhance cyber security for the database**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
