@@ -1,18 +1,18 @@
 databases:
-  - name: carRental  
-    databaseName: carrental_aqup
-    user: carrental_aqup_user
+  - name: car_rental_database
+    databaseName: car_rental_database
+    user: car_rental_database_user
 
 services:
   - type: web
-    name: car-rental-api
+    name: carRenalApi
     runtime: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: carrental_aqup
+          name: car_rental_database
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
